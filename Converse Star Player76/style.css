@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 5px solid black;
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 1300px;
+    border-radius: 15px;
+}
+.bütünsayfa{
+    display: flex;
+}
+.başlık{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: gray;
+    position: relative;
+    border-radius: 10px;
+}
+
+.freeshipping{
+    color: rgb(116, 116, 116);
+}
+.başlık::after{
+    content: "TOP";
+    position: absolute;
+    right: -37px;
+    top: -25px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.üç{
+    margin-left: 150px;
+    width: 300px;
+    margin-top: 15px;
+    
+}
+.iki{
+margin-left: 50px;
+margin-top: 15px;
+}
+.seksenbeş{
+    font-size: 30px;
+    color: rgb(169, 166, 166);
+    text-decoration: line-through;
+}
+.kırkiki{
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 8px;
+    color: rgb(3, 93, 3);
+}
+.ucret{
+    display: flex;
+    
+}
+.linkkk{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+.linkkk:hover{
+    background-color: gray;
+}
+.linkkk:active{
+    background-color: rgb(205, 205, 205);
+}
+.addtocard{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: gray;
+    color: black;
+    font-weight: bold;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+.addtocard:hover{
+    color: black;
+    background-color: rgb(174, 173, 173);
+}
+.addtocard:active
+{
+    background-color: rgb(219, 217, 217);
+}
+.üçiki{
+margin-top: 40px;
+
+}
+p,li {
+    font-size: 20px;
+
+}
+
+.pembe{
+    background-color: rgb(198, 169, 174);
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border: 3px solid rgb(133, 133, 133);
+}
+.pembe:hover{
+    cursor: pointer;
+}
+.siyah{
+    background-color: rgb(43, 37, 37);
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border: 3px solid rgb(133, 133, 133);
+}
+.siyah:hover{
+    cursor: pointer;
+}
+
+.renkler{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.renkseçenek{
+    margin-top: 40px;
+}
+
+.siyahaktif{
+    width: 37px;
+    height: 37px;
+}
+.pembeaktif{
+    width: 37px;
+    height: 37px; 
+}
+.numara-kutu{
+display: flex;
+margin-top: 15px;
+}
+.numara{
+margin-left: 5px;
+color: black;
+font-size: 20px;
+background-color: rgb(166, 164, 164);
+border: 1px solid black;
+width: 50px;
+}
+.numara:hover{
+    background-color: rgb(223, 219, 219)
+}
+.numara:active{
+    background-color: rgb(204, 204, 204);
+    border: 1px solid black;
+}
+.numaralar{
+    margin-top: 25px;
+    color: rgb(74, 74, 74);
+}
